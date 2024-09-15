@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenis Generator</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    .grid > div {
+        grid-rows: var(--r);
+        grid-column: var(--c);
+    }
+    .end {
+        font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.apper {
+    font-family: "Poppins";
+}
+</style>
+<body>
+    <div class="w-full bg-zinc-900">
+        <div class="grid grid-cols-8 grid-row-20 gap-2 overflow-hidden">
+            <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 3"><img src="./img/pexels-anastasiya-gepp-654466-1462636.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 7"><img src="./img/pexels-arnie-chou-304906-1557843.jpg" alt="Image 2"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 2"><img src="./img/pexels-bin-ziegler-588438-1364756.jpg" alt="Image 3"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 6"><img src="./img/pexels-luhras-2068033.jpg" alt="Image 4"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 4"><img src="./img/pexels-playmakerjoy-1580273.jpg" alt="Image 5"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 8"><img src="./img/pexels-raydar-110719-341970.jpg" alt="Image 6"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 1"><img src="./img/pexels-soldiervip-1391499.jpg" alt="Image 7"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 4"><img src="./img/pexels-uus-supendi-78976-245388.jpg" alt="Image 8"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 2"><img src="./img/img21.jpg" alt="Image 9"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 6"><img src="./img/pexels-vinicius-wiesehofer-289347-1130623.jpg" alt="Image 10"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 3"><img src="./img/img11.jpg" alt="Image 11"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 7"><img src="./img/img12.jpg" alt="Image 12"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 5"><img src="./img/img13.jpg" alt="Image 13"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 8"><img src="./img/img14.jpg" alt="Image 14"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 1"><img src="./img/img15.jpg" alt="Image 15"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 4"><img src="./img/img16.jpg" alt="Image 16"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 2"><img src="./img/img17.jpg" alt="Image 17"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 6"><img src="./img/img18.jpg" alt="Image 18"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 3"><img src="./img/img19.jpg" alt="Image 19"></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 7"><img src="./img/img20.jpg" alt="Image 20"></div>
+        </div>
+        <div class=" fixed top-0 left-0 w-full h-full  flex flex-col items-center justify-center text-white family-['Inter']">
+            <h1 class="apper text-7xl font-regular tracking-lower">THOMAS VANCE<sup>®</sup>
+            </h1>
+            <p class="text-2xl font-regular mt-2">別々でお願いしますいします々でお</p>
+        </div>
+        <div class="end w-full h-screen bg-[#D1D1D1] flex items-center justify-center mx-auto py-96 relative z-[999] text-center">
+            <p class="para text-5xl w-3/4 leading-[4.2rem] text-black font-regular text-left text-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta inventore delectus id, repellat praesentium consequuntur nesciunt quam, atque assumenda dolore vel! Unde nemo praesentium asperiores.<sup>®</sup> </p>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
