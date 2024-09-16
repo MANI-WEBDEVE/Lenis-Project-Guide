@@ -76,7 +76,7 @@ function App() {
     <>
       {" "}
       <div className="w-full bg-zinc-900">
-        <div ref={divRef} className="grid grid-cols-8 grid-row-20 gap-2 overflow-hidden">
+        <div  className="grid grid-cols-8 grid-row-20 gap-2 overflow-hidden">
           <div
             className="elem col-span-1 row-span-1"
             style={{ gridRow: 1, gridColumn: 3 }}
